@@ -1,6 +1,6 @@
 ---
 - name: Install docker and docker-compose
-  hosts: docker
+  hosts: all
   become: true
   roles:
     - geerlingguy.docker
